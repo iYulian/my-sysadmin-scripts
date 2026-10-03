@@ -1,0 +1,8 @@
+services:
+  script:
+    build: .
+    image: my-sysadmin-scripts:lastest
+    ports:
+      - "127.0.0.1:443:443"
+      - "127.0.0.1:80:80"
+      - "127.0.0.1:8080:8080"
